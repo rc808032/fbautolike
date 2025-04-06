@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto';
+    background-color: #f7f5f5;
+}
+.logo{
+    text-align: center;
+    margin: 30px;
+    padding-top: 20px;
+}
+.logo a{
+    color: blue;
+    font-size: 40px;
+    font-weight: 600;
+    align-items: center;
+   
+}
+form{
+    background-color: #fff;
+    padding: 20px 10px;
+    flex-direction: column;
+    display: flex;
+    margin: 40px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: -20px;
+}
+form legend{
+    font-weight: 500;
+}
+form input{
+    padding: 10px;
+    margin: 20px;
+    height: 10%;
+    border-radius: 6px;
+    border: 1px solid rgb(109, 106, 106);
+
+}
+button{
+    padding: 10px 20px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    margin: 20px;
+    margin-top: -3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #0000ffa9;
+}
+form #new{
+    background-color: #209602;
+    padding:15px;
+    margin: auto;
+    margin-top:1px;
+    cursor: pointer;
+}
+#new:hover{
+    background-color: #209602b8;
+}
+form div{
+    background-color: #b6b2b2;
+    height: 1px;
+    border:none;
+    padding-top: 1px;
+    margin-top:2px;
+    margin: 20px;
+}
